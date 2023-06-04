@@ -123,13 +123,13 @@ Figure 12: Both pictures are similar to CNN, since they both contain similar com
 # Object Detection: YOLO and SDD 
  
 ### YOLO (You only look Once) 
-1.Yolo was created by Joseph Redmon and Ali Farhadi in 2016.Yolo is based on Google Net. 
-2. Uses single convolutional network predicts the bounding boxes and the class probabilities. 
-3.Take an image and fragments into a S* S grid within each of the grid we take n bonding box. Usually we used 17*17 grid size. 
-4.The network ouputs a class probability and off values for the bounding box for each of the bounding box. 
-5.The bounding box which have class probability above a threshold value is selected and use to localize the object within the image. Finally, Non-Max Suppression and IOU are used to eliminate overlapping boxes. 
-6.Superfast 45 frames per second and accuracy 80.3%. 
-7. Yolo is difficulty for detection with small objects that appear in groups, such as flocks of birds. The main source of error is incorrect localizations.  
+* Yolo was created by Joseph Redmon and Ali Farhadi in 2016.Yolo is based on Google Net. 
+* Uses single convolutional network predicts the bounding boxes and the class probabilities. 
+* Take an image and fragments into a S* S grid within each of the grid we take n bonding box. Usually we used 17*17 grid size. 
+* The network ouputs a class probability and off values for the bounding box for each of the bounding box. 
+* The bounding box which have class probability above a threshold value is selected and use to localize the object within the image. Finally, Non-Max Suppression and IOU are used to eliminate overlapping boxes. 
+* Superfast 45 frames per second and accuracy 80.3%. 
+*  Yolo is difficulty for detection with small objects that appear in groups, such as flocks of birds. The main source of error is incorrect localizations.  
 
 
 ![image](https://github.com/Hem5555/Computer-Vision-internship-Projects-2021/assets/121716939/c6c0ee78-7a48-4087-913e-1f7d92cba7dc)
