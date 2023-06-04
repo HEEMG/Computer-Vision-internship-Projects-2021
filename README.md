@@ -115,6 +115,9 @@ CNN has many limitations on its applications. It makes prediction and classifies
 ![image](https://github.com/Hem5555/Computer-Vision-internship-Projects-2021/assets/121716939/22f24d44-1eab-4e3c-ab8b-d14b2dbb4a30)
 
 
+Figure 12: Both pictures are similar to CNN, since they both contain similar components. Source:   Pechyonkin(2017) 
+
+
 
 
 
