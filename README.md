@@ -1,5 +1,5 @@
-# Convolutional Neural Network (CNN) Theory 
-
+# CNN,Yolo,SSD and Person reidentification 
+## Convolutional Neural Network (CNN) Theory
 
 ### Introduction 
 A convolutional neural network (CNN) is class of artificial neural network (ANN) used in computer vision and processing which is specifically designed to process pixel data. Convolutional neural network (ConvNets) were first introduced in the 1980s by Yann LeCun, computer science researcher named as LeNet-5 to recognize hand-written numbers. CNN structure was first proposed by Fukushima in 1988.Alex Net, VGG, Google Net, Dense CNN and Fractal Net are generally considered the most popular architectures because of their performance in object recognition. ( Alom, et al., 2019) 
