@@ -117,6 +117,8 @@ CNN has many limitations on its applications. It makes prediction and classifies
 
 Figure 12: Both pictures are similar to CNN, since they both contain similar components. Source:   Pechyonkin(2017) 
 
+### Reference https://crawling-sole-80f.notion.site/CONVOLUTION-NEURAL-NETWORK-39aa64b0ddce445f98f8de129cc90ba6
+
 
 
 
