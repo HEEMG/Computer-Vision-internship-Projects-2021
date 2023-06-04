@@ -1,7 +1,7 @@
-Convolutional Neural Network (CNN) Theory 
+# Convolutional Neural Network (CNN) Theory 
 
 
-Introduction 
+### Introduction 
 A convolutional neural network (CNN) is class of artificial neural network (ANN) used in computer vision and processing which is specifically designed to process pixel data. Convolutional neural network (ConvNets) were first introduced in the 1980s by Yann LeCun, computer science researcher named as LeNet-5 to recognize hand-written numbers. CNN structure was first proposed by Fukushima in 1988.Alex Net, VGG, Google Net, Dense CNN and Fractal Net are generally considered the most popular architectures because of their performance in object recognition. ( Alom, et al., 2019) 
 CNN is particularly used in image & video recognition, image analysis & classification, segmentation, media recreation, recommendation systems, brain-computer interfaces, natural language processing and financial time series.  ( Bhandare, et al., 2016) 
 
@@ -71,6 +71,7 @@ We use striding in such case when we do not want to capture all the information.
 
 
 Fig 7: Result of output image after striding  
+
 Padding 
 While applying convolutions, sometime we willnot get output equivalent to input because of loss of data over borders. So that, we append a border of zeros amd recalculate the convolutions covering all the input values as shown in below. 
 
@@ -82,10 +83,7 @@ Fig 8: Image matrix after padding and striding
  
  
 Classification Block iv. 	Fully connected Layer 
-Fully-connected layers are the last part of every CNN architecture where each neuron inside a layer is connected with each neuron from its previous layer also known as dense layers. The last layer of Fully-Connected layers is used as the classifier of output image of the CNN architecture. The final fully connected layer typically has the same number of output nodes as 
-
-
-the number of classes. Fully-Connected Layers are feed-forward artificial neural network (ANN) works under the principle of traditional multi-layer perceptron neural network (MLP).  
+Fully-connected layers are the last part of every CNN architecture where each neuron inside a layer is connected with each neuron from its previous layer also known as dense layers. The last layer of Fully-Connected layers is used as the classifier of output image of the CNN architecture. The final fully connected layer typically has the same number of output nodes as the number of classes. Fully-Connected Layers are feed-forward artificial neural network (ANN) works under the principle of traditional multi-layer perceptron neural network (MLP).  
 The FC layers take input as feature maps from the final convolutional or pooling layer in the form of a set of metrics and those metrics are flattened to create a vector and this vector is then pass into the FC layer to generate the final output of CNN. ( Ghosh, et al., 2020). Flattening is the function that converts the pooled feature map to a single column that is passed to the fully connected layer. Finally, we use an activation function such as SoftMax or sigmoid to classify the outputs. 
 
 ![image](https://github.com/Hem5555/Computer-Vision-internship-Projects-2021/assets/121716939/f65d4978-bb5a-40cc-91ea-1d2763c668cd)
@@ -97,7 +95,8 @@ Fig 9: Flattening of a 3x3 image matrix into a 9x1 vector
 
 
 Fig 10: Example of fully-connected neural network (Source: (Pelletier, et al., 2019) 
-Conclusion 
+
+### Conclusion 
 
 In conclusion, Convolutional Neural Network (CNN) consists convolution layer and fully connected layer. The convolution layer always contains two basic functions, namely convolution and pooling. The convolution operation using multiple filters generate feature map by extracting features from the data set without losing important features. The pooling operation, also called subsampling, is used to reduce the dimensionality of feature maps from the convolution operation. These features are passed to the fully connected layer which consists of activation function and classify the image. The detail diagram of CNN is listed following as shown in figure. 
 
@@ -106,7 +105,10 @@ In conclusion, Convolutional Neural Network (CNN) consists convolution layer and
 
 Fig11: Convolutional Neural Networks (CNN) architectures presentation 
 (Source: https://dev.to/afrozchakure/cnn-in-a-brief-27gg) 
-Drawback of Convolutional Neural Network (CNN) 
+
+
+### Drawback of Convolutional Neural Network (CNN) 
+
 CNN has many limitations on its applications. It makes prediction and classifies based on certain components are present in that image. One of them is its inability to encode the position and orientation of object. Let’s consider our face where have the face oval, two eyes, a nose and a mouth. It’s enough for CNN in having presence of these components can be a very strong indicator to consider that there is a face in the image. Orientational and relative spatial relationships between these components were not considered for CNN. ( Pechyonkin, 2017)The example is given below.  
 
 
